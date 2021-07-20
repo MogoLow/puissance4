@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel='shortcut icon' type='image/x-icon' href="favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Puissance 4</title>
+</head>
+
+<body>
+    <h1 id="title">Puissance 4</h1>
+    <button id="start">START</button>
+    <article id="game">
+
+        <div id="score">
+        </div>
+
+    </article>
+    <button id="option">OPTIONS</button>
+    <article>
+        <form id="formOption">
+            <label for="colone">COLONE : </label><input type="number" value="7" id="colone" name="colone" min="5"
+                max="20">
+            <label for="ligne">LIGNE : </label><input type="number" value="6" id="ligne" name="ligne" min="5" max="20">
+
+            <label for="player1">COULEUR PLAYER : </label>
+            <select name="player1" id="player1">
+                <option value="red">red</option>
+                <option value="orange">orange</option>
+                <option value="burlywood">burlywood</option>
+                <option value="cyan">cyan</option>
+                <option value="deeppink">deeppink</option>
+                <option value="darkred">darkred</option>
+                <option value="cadetblue">cadetblue</option>
+            </select>
+
+            <label for="player2">COULEUR PLAYER 2 :</label>
+            <select name="player2" id="player2">
+                <option value="yellow">yellow</option>
+                <option value="orange">orange</option>
+                <option value="burlywood">burlywood</option>
+                <option value="cyan">cyan</option>
+                <option value="deeppink">deeppink</option>
+                <option value="darkred">darkred</option>
+                <option value="cadetblue">cadetblue</option>
+            </select>
+
+        </form>
+    </article>
+    <script src="puissance4.js"></script>
+
+</body>
+
+</html>

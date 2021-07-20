@@ -1,0 +1,155 @@
+*{
+font-family:monospace, Tahoma, Geneva, Verdana, sans-serif ;
+}
+body{
+    background-color: #F3F3F3;
+}
+article{
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#grille{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+
+}
+
+.colonne{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    background-color:#222;
+    
+
+}
+
+.trou,.trouTurn{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 100%;
+    border: 5px solid  #222 ;
+
+}
+
+.neutre{
+    background-color: rgb(250, 250, 250);
+
+}
+
+
+#game{
+    display: flex ;
+    flex-direction: column-reverse;
+    justify-content: center;
+    
+}
+
+#score{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
+
+
+
+#start,#option,#ok{
+
+    background: #222;
+    height: 50px;
+    min-width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 40px;
+    display: flex;
+    transition: 0.5s;
+    justify-content: center;
+
+}
+
+#turn,#moves{
+    background: #222;
+    height: 50px;
+    min-width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 40px;
+    font-family:monospace, Tahoma, Geneva, Verdana, sans-serif ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+#start:hover,#option:hover,#ok:hover {
+    background: transparent;
+    color:  black;
+    transition: 0.5s;
+
+    
+}
+#start:focus {
+    background: green;
+
+    transition: 0.5s;
+
+}
+
+#title{
+    border: solid 4px black;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: xxx-large;
+
+}
+
+#fin{
+
+    background: #222;
+    height: 50px;
+    min-width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 40px;
+    font-family:monospace, Tahoma, Geneva, Verdana, sans-serif ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: xxx-large;
+}
+
+#formOption{
+    border: solid 2px #222;
+    border-radius: 15%;
+    background-color: #222;
+    color: #eee;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+
+
+}
+
+input,select{
+    margin-bottom: 20px;
+}
